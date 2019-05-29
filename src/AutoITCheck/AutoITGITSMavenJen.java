@@ -54,7 +54,7 @@ public class AutoITGITSMavenJen {
 		Thread.sleep(500);
 		//Run the file to upload the picture
 		Runtime.getRuntime().exec("C:\\Users\\User\\workspace\\AutoIT.exe");
-		Thread.sleep(500);
+		Thread.sleep(600);
 		driver.findElement(By.xpath("//*[@id='onboarding']/div/div[1]/div[2]/div[2]/app-onboarding-personal-details/div[2]/div/div/div[2]/div[2]/button")).click();
 		driver.close();
   }
