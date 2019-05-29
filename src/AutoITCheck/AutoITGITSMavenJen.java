@@ -44,6 +44,7 @@ public class AutoITGITSMavenJen {
 		Thread.sleep(2000);
 		
 		//Click on My Profile link
+		
 		driver.findElement(By.className("user_image")).click();
 		driver.findElement(By.linkText("My Profile")).click();
 		driver.findElement(By.xpath("//*[@id='personal_details']/i")).click();
@@ -51,6 +52,7 @@ public class AutoITGITSMavenJen {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//*[@id='custom-input']")).click();
 		Thread.sleep(500);
+		//Run the file to upload the picture
 		Runtime.getRuntime().exec("C:\\Users\\User\\workspace\\AutoIT.exe");
 		Thread.sleep(500);
 		driver.findElement(By.xpath("//*[@id='onboarding']/div/div[1]/div[2]/div[2]/app-onboarding-personal-details/div[2]/div/div/div[2]/div[2]/button")).click();
