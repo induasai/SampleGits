@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26191" started-at="2019-05-29T03:09:28Z" finished-at="2019-05-29T03:09:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26191" started-at="2019-05-29T03:09:28Z" finished-at="2019-05-29T03:09:55Z">
+      <class name="AutoITCheck.AutoITGITSMavenJen">
+        <test-method status="PASS" signature="getBrowser()[pri:0, instance:AutoITCheck.AutoITGITSMavenJen@546a03af]" name="getBrowser" is-config="true" duration-ms="2977" started-at="2019-05-28T22:09:28Z" finished-at="2019-05-28T22:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="UploadPic()[pri:0, instance:AutoITCheck.AutoITGITSMavenJen@546a03af]" name="UploadPic" duration-ms="23203" started-at="2019-05-28T22:09:31Z" finished-at="2019-05-28T22:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadPic -->
+      </class> <!-- AutoITCheck.AutoITGITSMavenJen -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
